@@ -1,0 +1,464 @@
+=======================START ASSIGNEMENT 1==========================================
+1.
+public class Hello1 {
+
+	public static void main(String[] args) 
+	{
+	System.out.println("Hello\nBimensh Yadav");
+	}
+}
+---------------------------------------------------------------------------
+2.
+import java.util.Scanner;
+
+public class P2_Sum2No {
+
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		int n1,n2,sum;
+		
+		System.out.println("Enter two no:");
+		n1=s.nextInt();
+		n2=s.nextInt();
+		
+		sum=n1+n2;
+		System.out.println("Sum="+sum);
+	}
+}
+-----------------------------------------------------------------------------------------------
+3.
+
+import java.util.Scanner;
+
+public class P3_Divide2No {
+
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		int n1,n2,div;
+		
+		System.out.println("Enter two no:");
+		n1=s.nextInt();
+		n2=s.nextInt();
+		
+		div=n1/n2;
+		System.out.println("Divide="+div);
+	}
+}
+-----------------------------------------------------------------------------------------------
+4.
+
+public class P4_Operators {
+
+	public static void main(String[] args) 
+	{
+		double a,b,c,d;
+		a=-5 + 8 * 6;
+		b=(55+9) % 9; 
+		c=20 + -3*5 / 8;
+		d=5 + 15 / 3 * 2 - 8 % 3;
+		
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+	}
+}
+-----------------------------------------------------------------------------------------------------
+5.
+
+import java.util.Scanner;
+
+public class P5_Productof2No {
+
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		int n1,n2,mul;
+		
+		System.out.println("Enter two no:");
+		n1=s.nextInt();
+		n2=s.nextInt();
+		
+		mul=n1*n2;
+		System.out.println("Multiply="+mul);
+	}
+}
+--------------------------------------------------------------------------------------------------
+6.
+
+import java.util.Scanner;
+
+public class P6_ASMDMof2NO {
+
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		int n1,n2,add,sub,mul,div,mod;
+		System.out.println("Enter two no:");
+		n1=s.nextInt();
+		n2=s.nextInt();
+		
+		add=n1+n2;
+		sub=n1-n2;
+		mul=n1*n2;
+		div=n1/n2;
+		mod=n1%n2;
+		
+		System.out.println("Addition="+add);
+		System.out.println("Subtration="+sub);
+		System.out.println("Multiplication="+mul);
+		System.out.println("Divide="+div);
+		System.out.println("Remender="+mod);
+	}
+}
+----------------------------------------------------------------------------------------------------
+7.
+
+import java.util.Scanner;
+
+public class P7_table {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter no:");
+		int no=s.nextInt();
+		
+		for(int i=1;i<=10;i++)
+		{
+			System.out.println(no+"*"+i+"="+no*i);
+		}	
+	}
+}
+--------------------------------------------------------------------------------------------------------
+8.
+public class P8_JavaPattern {
+
+	public static void main(String[] args)
+	{
+	System.out.println("   J    a  v     v  a");           
+	System.out.println("   J   a a  v   v  a a");
+	System.out.println("J  J  aaaaa  v v  aaaaa");
+	System.out.println(" JJ  a     a  v  a     a");
+			 
+	}
+
+}
+
+--------------------------------------------------------------------------------------------------------
+9.
+
+public class P9_operators {
+
+	public static void main(String[] args) 
+	{
+		double no;
+		no=((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5));
+		System.out.println(no);
+	}
+
+}
+-------------------------------------------------------------------------------------------------------
+11.
+
+import java.util.Scanner;
+
+public class P11_Circle {
+
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		double pi=3.14,r,ar,pm;
+		 
+		System.out.println("Enter circle radius no:");
+		r=s.nextDouble();
+		ar=pi*r*r;
+		pm=2*pi*r;
+		System.out.println("Area of circle="+ar);
+		System.out.println("Perimeter of Circle:"+pm);	
+	}
+
+}
+---------------------------------------------------------------------------------------------------------
+12.
+
+import java.util.Scanner;
+
+public class P12_Averageof3NO {
+
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		double a,b,c,sum,avg;
+		System.out.println("Enter 3 no:");
+		a=s.nextDouble();
+		b=s.nextDouble();
+		c=s.nextDouble();
+		
+		sum=a+b+c;
+		avg=sum/3;
+		
+		System.out.println("Addition of 3 no="+sum);
+		System.out.println("Average of 3 no="+avg);
+	}
+}
+-----------------------------------------------------------------------------------------------------------
+13.
+import java.util.Scanner;
+
+public class P12_Averageof3NO {
+
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		double a,b,c,sum,avg;
+		System.out.println("Enter 3 no:");
+		a=s.nextDouble();
+		b=s.nextDouble();
+		c=s.nextDouble();
+		
+		sum=a+b+c;
+		avg=sum/3;
+		
+		System.out.println("Addition of 3 no="+sum);
+		System.out.println("Average of 3 no="+avg);
+	}
+}
+----------------------------------------------------------------------------------------------------------
+14.
+public class P14_UsFlag {
+
+	public static void main(String[] args)
+	{
+	int i,j;
+	for(i=1;i<=9;i++)
+	{
+	if(i%2==1)
+	{
+	System.out.println("* * * * * *"+" ===============================");
+	}
+	else
+	{
+	System.out.println(" * * * * *"+"  ===============================");
+	}
+	}	
+		
+	for(j=1;j<=6;j++)
+	{
+	System.out.println("===========================================");
+	}
+	}
+
+}
+
+-----------------------------------------------------------------------------------------------------------
+ 15.
+
+import java.util.Scanner;
+
+public class P15_SwapNo {
+
+	public static void main(String[] args)
+	{
+		Scanner s=new Scanner(System.in);
+		int a,b,c;
+		System.out.println("Enter two no:");
+		a=s.nextInt();
+		b=s.nextInt();
+		System.out.println("Before swap value of a,b:"+a+" "+b);
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		
+		System.out.println("After swap value of a,b:"+a+" "+b);
+
+	}
+}
+------------------------------------------------------------------------------------------------
+ 16.
+public class P16_Smile {
+
+	public static void main(String[] args) 
+	{
+		System.out.println("+\"\"\"\"\"+);		
+		System.out.println("[ | O O | ]");
+		System.out.println("   |   ^  | ");
+		System.out.println("   |  '-' | ");
+		System.out.println("+-----------+");
+		System.out.println("=======");
+	}
+}
+--------------------------------------------------------------------------------------------
+ 17.
+import java.util.Scanner;
+
+public class P17_Add2Binary {
+
+	public static void main(String[] args) 
+	
+	{
+	Scanner s=new Scanner(System.in);
+	System.out.println("Ente 1:");
+	String x=s.next();
+		
+	System.out.println("Enter 2:");
+	String y=s.next();
+		
+	int n1=Integer.parseInt(x,2);
+	int n2=Integer.parseInt(y,2);
+		
+		
+		
+	System.out.println("n1 :"+Integer.toBinaryString(n1));
+	System.out.println("n2 :"+Integer.toBinaryString(n2));
+	int n3=n1+n2;
+	System.out.println("n3=n1+n2 :"+Integer.toBinaryString(n3));	
+	}
+}
+-------------------------------------------------------------------------------------------------------
+18.
+public static void main(String[] args) 
+	{
+	Scanner s=new Scanner(System.in);
+		
+	System.out.println("Enetr 1 binary no:");
+	String x=s.next();
+	System.out.println("Enetr 2 binary no:");
+	String y=s.next();
+		
+	int n1=Integer.parseInt(x,2);
+	int n2=Integer.parseInt(y,2);
+		
+	int n3=n1*n2;
+		
+	Integer.toBinaryString(n1);
+	Integer.toBinaryString(n2);
+	System.out.println("n3= "+Integer.toBinaryString(n3));
+	}
+}
+------------------------------------------------------------------------------------------------------
+19.
+import java.util.Scanner;
+
+public class P19_DectoBin {
+
+public static void main(String[] args) 
+{
+	Scanner s=new Scanner(System.in);
+	System.out.println("Ente no:");
+	int x=s.nextInt();
+		
+	System.out.println(Integer.toBinaryString(x));
+		
+	}
+}
+--------------------------------------------------------------------------------------------------------------
+20.
+import java.util.Scanner;
+
+public class P20_DecToHexa {
+
+	public static void main(String[] args) 
+	{
+	Scanner s=new Scanner(System.in);
+		
+	System.out.println("Enter Decimal no:");
+	int x=s.nextInt();
+	String y=Integer.toHexString(x);
+	System.out.println("HexaDecimal no:"+y);
+	}
+}
+-------------------------------------------------------------------------------------------------------
+21.
+import java.util.Scanner;
+
+public class P21_DecToOct {
+
+	public static void main(String[] args) 
+	{
+	Scanner s=new Scanner(System.in);
+		
+	System.out.println("Enter Decimal no:");
+	int x=s.nextInt();
+		
+	System.out.println(Integer.toOctalString(x));	
+	}
+}
+----------------------------------------------------------------------------------------------------------
+22.
+import java.util.Scanner;
+
+public class P22_BinToDec {
+
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		
+		System.out.println("Enter Binary no:");
+		String x=s.next();
+		System.out.println(Integer.parseInt(x,2));
+	}
+}
+-----------------------------------------------------------------------------------------------------------------
+23.
+import java.util.Scanner;
+
+public class P23_BinToHexa {
+
+	public static void main(String[] args) 
+	{
+	String Hexa;
+	Scanner s=new Scanner(System.in);
+		
+	System.out.println("Enter Binary no:");
+	String x=s.next();
+	int dec=Integer.parseInt(x,2);
+		
+	Hexa=Integer.toHexString(dec);
+	System.out.println("HexaDecimal no:"+Hexa);
+	}
+}
+------------------------------------------------------------------------------------------------------------------
+24.
+import java.util.Scanner;
+
+public class P24_BinToOct {
+
+	public static void main(String[] args) 
+	{
+		String Oct;
+		Scanner s=new Scanner(System.in);
+		
+		System.out.println("Enter Binary no:");
+		String x=s.next();
+		int dec=Integer.parseInt(x,2);
+		
+		
+		Oct=Integer.toOctalString(dec);
+		System.out.println("Ocatal no:"+Oct);
+	}
+}
+------------------------------------------------------------------------------------------------------------------
+25.
+import java.util.Scanner;
+
+public class P25_DecToOct {
+
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		
+		System.out.println("Enter Decimal no:");
+		String x=s.next();
+		int oct=Integer.parseInt(x,8);
+		System.out.println("Ocatal no:"+oct);
+
+	}
+}
+=======================END ASSIGNEMENT 1==========================================
+
+
+
+
+   
